@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicCrudOperations", "BasicCrudOperations\BasicCrudOperations.csproj", "{00357249-12F9-4C0E-A8E1-68A9349BEE71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLayer", "DataAccessLayer\DataAccessLayer.csproj", "{C927E7BD-D047-4527-8DFF-0AC98F19C630}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00357249-12F9-4C0E-A8E1-68A9349BEE71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00357249-12F9-4C0E-A8E1-68A9349BEE71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00357249-12F9-4C0E-A8E1-68A9349BEE71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00357249-12F9-4C0E-A8E1-68A9349BEE71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C927E7BD-D047-4527-8DFF-0AC98F19C630}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C927E7BD-D047-4527-8DFF-0AC98F19C630}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C927E7BD-D047-4527-8DFF-0AC98F19C630}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C927E7BD-D047-4527-8DFF-0AC98F19C630}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1F48CC61-E77D-4765-A7E7-94C638C882C5}
+	EndGlobalSection
+EndGlobal
