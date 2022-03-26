@@ -42,9 +42,9 @@ namespace DataAccessLayer.Controllers
             if (string.IsNullOrEmpty(name))
                 return NotFound("parameter is Empty");
 
-            var employee=EmployeeStore.Employees.Where(w => w.Name.Contains(name)).FirstOrDefault();
+           return EmployeeStore.Employees.Where(w => w.Name.Contains(name)).FirstOrDefault();
 
-            return employee;
+           
         }
         [HttpDelete("")]
         public async Task<bool> Delete(int id)
