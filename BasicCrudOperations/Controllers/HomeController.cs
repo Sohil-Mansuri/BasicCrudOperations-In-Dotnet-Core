@@ -1,4 +1,5 @@
 ﻿using BasicCrudOperations.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
@@ -9,7 +10,8 @@ using System.Threading.Tasks;
 
 namespace BasicCrudOperations.Controllers
 {
-    public class HomeController : Controller
+    [Authorize]
+    public class HomeController : HelperController
     {
         private readonly ILogger<HomeController> _logger;
 
@@ -25,6 +27,7 @@ namespace BasicCrudOperations.Controllers
 
         public IActionResult Privacy()
         {
+            var response = SendGetWebReqest("Employee");
             return View();
         }
 
